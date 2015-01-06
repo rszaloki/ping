@@ -1,0 +1,20 @@
+{
+  "name": "ping",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rszaloki/ping",
+  "authors": [
+    "Robert Szaloki <robert.szaloki@euedge.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  }
+}

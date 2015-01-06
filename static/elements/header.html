@@ -1,0 +1,35 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="ping-header" noscript>
+  <template>
+    <style>
+li {
+  display:inline-block;
+  font-size: 20px;
+  line-height:25px;
+  padding:5px;
+  border-radius:5px;
+  background:navy;
+  color:white;
+  min-width:10ex;
+  text-align:center;
+}
+
+a {
+  color:white;
+}
+
+ul {
+  padding:0;
+}
+    </style>
+    <h1>Ping example</h1>
+    <ul>
+      <li><a href="/index.html" ping="http://localhost:8080/track/index">index</a></li>
+      <li><a href="/pig.html" ping="http://localhost:8080/track/pig">pig</a></li>
+      <li><a href="/duck.html" ping="http://localhost:8080/track/duck">duck</a></li>
+      <li><a href="/dog.html" ping="http://localhost:8080/track/dog">dog</a></li>
+      <li><a href="/cat.html" ping="http://localhost:8080/track/cat">cat</a></li>
+    </ul>
+  </template>
+</polymer-element>
